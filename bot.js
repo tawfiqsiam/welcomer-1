@@ -35,7 +35,7 @@ client.on('ready', function() {
 
 client.on("guildMemberAdd", member => {
       if([member.guild.id]) [member.guild.id] = {
-    channel: "welcome"
+    channel: "chat"
   }
   const channel = sWlc[member.guild.id].channel
     const sChannel = sWlc[member.guild.id].channel
